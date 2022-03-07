@@ -4,7 +4,7 @@
     "build": "vite build",
     "serve": "vite preview"
   },
-  "name": "",
+  "name": "math4u",
   "devDependencies": {
     "@types/react": "^17.0.37",
     "@vitejs/plugin-react": "latest",
