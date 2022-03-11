@@ -23,7 +23,7 @@ const Feedbacks = () => {
     },
 
     {
-      name: 'Esha Anna Alex',
+      name: 'Parent of Esha Anna Alex',
       text: 'Really happy with your guidance and support towards Esha. Your regular tests also helps to keep her on her toes.',
       grade: 8,
       location: 'Bangalore',
@@ -35,7 +35,7 @@ const Feedbacks = () => {
       location: 'Bangalore',
     },
     {
-      name: 'Shea Mascarenhas',
+      name: 'Parent of Shea Mascarenhas',
       text: "She explains till every student understands, gives extra sums for practice,  makes the class lively,  gives many examples, motivates the children to interact so that the doubts can be cleared. Shea has been under her guidance from the 8th grade and we can see the difference in her",
       grade: 9,
       location: 'Bangalore',
@@ -48,7 +48,7 @@ const Feedbacks = () => {
         See how our students feel after attending MATH4U
       </h3>
       <div
-        className='flex flex-wrap -mx-2  sm:-mx-px xl:space-x-5 align-middle sm:justify-center xs:ml-8 sm:space-y-3 md:space-x-2'
+        className='flex flex-wrap md:ml-0 mx-auto xl:space-x-5 align-middle sm:justify-center xs:ml-10 sm:space-y-3 md:space-x-2 sm:ml-16'
       >
         {feedbacks.map((feedback) => (
           <FeedbackCard key={feedback.name} feedback={feedback} />

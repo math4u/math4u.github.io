@@ -30,7 +30,7 @@ const Features = () => {
   return (
     <section className='grid place-content-center mt-4' id='features'>
       <h1 className='mb-5 text-4xl font-bold text-center'>Features</h1>
-      <div className='flex flex-wrap overflow-hidden xl:space-x-5 align-middle  sm:space-y-3 md:space-x-2 justify-center '>
+      <div className='flex flex-wrap overflow-hidden xl:space-x-5 align-middle  sm:space-y-3 md:space-x-2 justify-center mr-8 sm:mr-0 mx-auto'>
         {features.map((feature) => (
           <FeatureCard key={feature.title} {...feature} />
         ))}
