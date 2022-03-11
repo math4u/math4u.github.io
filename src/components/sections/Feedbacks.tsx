@@ -48,7 +48,7 @@ const Feedbacks = () => {
         See how our students feel after attending MATH4U
       </h3>
       <div
-        className='flex flex-wrap md:ml-0 mx-auto xl:space-x-5 align-middle sm:justify-center xs:ml-10 sm:space-y-3 md:space-x-2 sm:ml-16'
+        className='flex flex-wrap  mx-auto xl:space-x-5 align-middle sm:justify-center xs:ml-5 xs:mr-0 sm:space-y-3 md:space-x-2' 
       >
         {feedbacks.map((feedback) => (
           <FeedbackCard key={feedback.name} feedback={feedback} />

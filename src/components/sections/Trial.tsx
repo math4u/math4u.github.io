@@ -30,8 +30,8 @@ const Trial = () => {
   }
   return (
     <section id='trial' className='grid place-content-center mt-4 mb-5'>
-      <form className='flex flex-col space-y-2 w-96' onSubmit={onSubmit}>
-        <h1 className='mb-5 text-4xl font-bold'>Book your trial class</h1>
+      <form className='flex flex-col space-y-2 w-96 mx-2' onSubmit={onSubmit}>
+        <h1 className='mb-5 text-4xl font-bold '>Book your trial class</h1>
         <input
           type='text'
           placeholder='Name of the student'

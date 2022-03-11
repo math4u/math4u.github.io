@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className='hero min-h-[400px] bg-base-200'>
+      <div className='min-h-[400px] bg-base-200 min-w-[320px]'>
         <div>
           <div className='text-center'>
             <div
