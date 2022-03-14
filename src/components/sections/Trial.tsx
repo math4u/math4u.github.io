@@ -13,15 +13,18 @@ const Trial = () => {
   const onSubmit = async(e: SyntheticEvent) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post(`https://math4u-api.herokuapp.com/trial`, {
-        studentName,
-        parentName,
-        email,
-        phone,
-        grade,
-        physics,
-        school,
-      });
+      const { data } = await axios.post(
+        `https://math4u-api.azurewebsites.net/trial`,
+        {
+          studentName,
+          parentName,
+          email,
+          phone,
+          grade,
+          physics,
+          school,
+        }
+      );
       console.log(data)
     } catch (err) {
       console.error(err);
