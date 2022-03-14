@@ -1,5 +1,5 @@
 import { SyntheticEvent, useState } from 'react';
-import axios from 'axios'
+import axios from 'axios';
 
 const Trial = () => {
   const [studentName, setStudentName] = useState('');
@@ -10,7 +10,7 @@ const Trial = () => {
   const [physics, setPhysics] = useState(false);
   const [school, setSchool] = useState('');
 
-  const onSubmit = async(e: SyntheticEvent) => {
+  const onSubmit = async (e: SyntheticEvent) => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
@@ -25,12 +25,12 @@ const Trial = () => {
           school,
         }
       );
-      console.log(data)
+      alert('Your trial has been booked successfully');
+      console.log(data);
     } catch (err) {
       console.error(err);
-      
     }
-  }
+  };
   return (
     <section id='trial' className='grid place-content-center mt-4 mb-5'>
       <form className='flex flex-col space-y-2 w-96 mx-2' onSubmit={onSubmit}>
@@ -94,13 +94,15 @@ const Trial = () => {
               id='physicsCheckbox'
               checked={physics}
               className='checkbox checkbox-primary'
-              onChange={() => setPhysics(physics => !physics)}
+              onChange={() => setPhysics((physics) => !physics)}
               required
             />
-            <label htmlFor="physicsCheckbox" className='ml-3'>I want physics classes too</label>
+            <label htmlFor='physicsCheckbox' className='ml-3'>
+              I want physics classes too
+            </label>
           </div>
         )}
-        <button className='btn btn-outline btn-primary'>Book my trial  !</button>
+        <button className='btn btn-outline btn-primary'>Book my trial !</button>
       </form>
     </section>
   );
