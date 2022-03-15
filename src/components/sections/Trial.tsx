@@ -95,7 +95,6 @@ const Trial = () => {
               checked={physics}
               className='checkbox checkbox-primary'
               onChange={() => setPhysics((physics) => !physics)}
-              required
             />
             <label htmlFor='physicsCheckbox' className='ml-3'>
               I want physics classes too
