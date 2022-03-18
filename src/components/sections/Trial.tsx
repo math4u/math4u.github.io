@@ -13,6 +13,7 @@ const Trial = () => {
   const onSubmit = async (e: SyntheticEvent) => {
     e.preventDefault();
     try {
+      alert('Your trial has been booked successfully');
       const { data } = await axios.post(
         `https://math4u-api.azurewebsites.net/trial`,
         {
@@ -25,7 +26,6 @@ const Trial = () => {
           school,
         }
       );
-      alert('Your trial has been booked successfully');
       console.log(data);
     } catch (err) {
       console.error(err);
