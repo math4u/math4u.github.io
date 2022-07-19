@@ -46,7 +46,7 @@ const Feedbacks = () => {
     <div className='flex align-middle justify-center flex-col mt-4 ' id='testimonials'>
       <h1 className='mb-5 text-4xl font-bold text-center'>Testimonials</h1>
       <h3 className='text-xl mb-8 text-center'>
-        See how our students feel after attending MATH4U
+         See how our students feel after attending MATH4U
       </h3>
       <div
         className='flex flex-wrap  mx-auto xl:space-x-5 align-middle sm:justify-center xs:ml-5 xs:mr-0 sm:space-y-3 md:space-x-2' 
