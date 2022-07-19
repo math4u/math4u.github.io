@@ -11,14 +11,14 @@ const Contact = () => {
       <h1 className='mb-5 text-4xl font-bold text-center'>Contact</h1>
       <div className='flex flex-col sm:flex-row xs:ml-16 space-x-5 '>
         <a
-          href='tel:9986390601'
+          href='tel:74717362'
           className='btn max-w-fit flex flex-col space-x-2 pr-10 -pr-5 xs:text-md md:text-lg xs:mt-4 md:mt-0 xs:ml-4'
         >
           <AiOutlinePhone className='inline' />
-          <span>9986390601</span>
+          <span>+974 74717362</span>
         </a>
         <a
-          href='https://wa.me/919986390601'
+          href='https://wa.me/97474717362'
           className='btn max-w-fit flex flex-col space-x-2 pr-10 -pr-5 btn-success xs:text-md md:text-lg xs:mt-4 md:mt-0'
         >
           <AiOutlineWhatsApp className='inline' />

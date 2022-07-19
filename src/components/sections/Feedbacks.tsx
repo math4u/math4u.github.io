@@ -3,12 +3,7 @@ import { Feedback } from '../..';
 import FeedbackCard from '../FeedbackCard';
 const Feedbacks = () => {
   const feedbacks: Feedback[] = [
-    {
-      name: 'Parent of Mamata Menon',
-      text: "Great teaching , Mamata has improved a lot in Math after she started training with you ma'am.Thank you.",
-      grade: 8,
-      location: 'Bangalore',
-    },
+   
     {
       name: 'Aliza Shad',
       text: 'Lots of improvement in maths after tuition  very nice teacher',
@@ -20,6 +15,12 @@ const Feedbacks = () => {
       text: 'I like the teaching method.Conducting chapterwise tests and revision classes has been very useful.',
       grade: 8,
       location: 'Qatar',
+    },
+    {
+      name: 'Parent of Mamata Menon',
+      text: "Great teaching , Mamata has improved a lot in Math after she started training with you ma'am.Thank you.",
+      grade: 8,
+      location: 'Bangalore',
     },
 
     {
