@@ -36,7 +36,7 @@ const App = () => {
             </a>
             <div className='bg-blue-300 mt-5 py-5'>
               <marquee className='my-5 text-2xl'>
-                *** Special Congrats to Sarah Benedicta Minj for scoring 99/100 in grade 10 📕📕 ***            ***
+                 *** Special Congrats to Sarah Benedicta Minj for scoring 99/100 in grade 10 📕📕 ***            ***
                 Congratulations to our students for scoring high marks in grade
                 10 ***
               </marquee>
