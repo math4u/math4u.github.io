@@ -32,7 +32,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className='flex-none'>
-        <a className='btn btn-square btn-ghost text-lg' href='tel:9986390601'>
+        <a className='btn btn-square btn-ghost text-lg' href='tel:0097474717362'>
           <AiOutlinePhone />
         </a>
       </div>
